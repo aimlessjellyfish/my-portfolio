@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #3f3d56;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #4b4a7a;
+    font-weight: 600;
+}
+
+p {
+    color: #5a5870;
+    font-size: 1.05rem;
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-colour {
+    background-color: #A7ABDE;
+}
+
+.navbar-colour .nav-link {
+    color: white;
+}
+
+.navbar-colour .nav-link:hover {
+    color: #C8CEEE;
+}
+
+#about {
+    background-color: #E8DAF0;
+}
+
+#work {
+    background-color: #F3E4F5;
+}
+
+#projects {
+    display: block;
+    padding-bottom: 120px;
+    background-color: #E8DAF0;
+}
+
+#contact {
+    background-color: #F3E4F5;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.square {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#contact i {
+    color: #4b4a7a;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+.footer {
+    background-color: #A7ABDE;
+}
+
+.footer p {
+    color: white;
+}
